@@ -16,4 +16,6 @@ This will enable you to search for users in a more accurate and efficient way. N
 
 <img src="https://i.ibb.co/2tTZ84y/3-searching-done-right.png">
 
+## Using Advanced Features to Enable a More Detailed User Search
+In Active Directory Users and Computers, you can go to the "View" tab. 
 
