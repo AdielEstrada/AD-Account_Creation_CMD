@@ -17,5 +17,6 @@ This will enable you to search for users in a more accurate and efficient way. N
 <img src="https://i.ibb.co/2tTZ84y/3-searching-done-right.png">
 
 ## Using Advanced Features to Enable a More Detailed User Search
-In Active Directory Users and Computers, you can go to the "View" tab. 
+In Active Directory Users and Computers, you can go to the "View" tab. Click on Advanced Features. This will make more folders appear and enable a more advanced search. 
 
+<img src="https://i.ibb.co/2qN51pf/4a-view-advanced-features.png">
