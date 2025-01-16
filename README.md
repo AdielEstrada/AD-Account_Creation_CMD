@@ -20,3 +20,13 @@ This will enable you to search for users in a more accurate and efficient way. N
 In Active Directory Users and Computers, you can go to the "View" tab. Click on Advanced Features. This will make more folders appear and enable a more advanced search. 
 
 <img src="https://i.ibb.co/2qN51pf/4a-view-advanced-features.png">
+
+As you can see, more folders will pop-up. We can ignore this for now, but we will begin our search again. The process is the same. We are still searching for guest, so we will still search for the guest in the entire directory. But now, when we see the user named "Guest" in the search results, we will want to right click on that user. After that, we will want to look at the Properties option. 
+
+<img src="https://i.ibb.co/7QpnBwP/7-guest-search-up-and-properties.png">
+
+A pop-up called guest properties will appear. Here, in the General tab, we will find general information about the user. However, since we enabled advanced features, we get more tabs we can explore. For example, one of the tabs that gives useful information is the Object tab. So, click on Object. 
+
+<img src="https://i.ibb.co/S58zsYw/8-properties-object.png">
+
+The Object tab will pop-up. This tab helps us identify what groups a user is part of. So, this user is part of the "adielit.local" domain, and part of the "Users" group. Knowing what groups the guest or any user for that matter is part of, you can know what policies are implemented. 
