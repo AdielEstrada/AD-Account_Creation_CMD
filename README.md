@@ -30,3 +30,5 @@ A pop-up called guest properties will appear. Here, in the General tab, we will 
 <img src="https://i.ibb.co/S58zsYw/8-properties-object.png">
 
 The Object tab will pop-up. This tab helps us identify what groups a user is part of. So, this user is part of the "adielit.local" domain, and part of the "Users" group. Knowing what groups the guest or any user for that matter is part of, you can know what policies are implemented. 
+
+<img src="https://i.ibb.co/ZXYMZsD/9-what-object-shows.png">
