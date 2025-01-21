@@ -31,4 +31,27 @@ A pop-up called guest properties will appear. Here, in the General tab, we will 
 
 The Object tab will pop-up. This tab helps us identify what groups a user is part of. So, this user is part of the "adielit.local" domain, and part of the "Users" group. Knowing what groups the guest or any user for that matter is part of, you can know what policies are implemented. 
 
-<img src="https://i.ibb.co/ZXYMZsD/9-what-object-shows.png">
+<img src="https://i.ibb.co/YjgZ3PR/9-what-object-shows-1.png">
+
+## Enabling the Recycle Bin in Active Directory Administrative Center
+
+In the start menu, or in the search bar, look for "Active Directory Administrative Center" (If you are using the start menu, go to Windows Administrative Tools). Open the app. 
+
+<img src="https://i.ibb.co/pZwtPKR/11-enablerecyclebin.png">
+
+Then, there will be a pop-up asking us to confirm whether we want to enable the recycle bin. We can confirm by pressing ok.
+
+<img src="https://i.ibb.co/bQG1HLb/12-ok.png">
+
+Then, another screen will prompt us to refresh AD Admin Center. We can press ok, and press the refresh button up on top. 
+
+<img src="https://i.ibb.co/6sN4kCY/13-refreshing.png">
+
+A new folder should pop-up, named "Deleted Objects". This indicates that the recycle bin has been enabled correctly. 
+
+<img src="https://i.ibb.co/CQ546gy/14-shows-up-as-deleted-objects.png">
+
+## Creating Users in Active Directory
+To create a new user, open Active Directory Users and Computers. Usually, you would right-click on an empty space, and click new, then user, and go on to create the account with suitable permissions. However, in this case, we want to replicate an administrator account so that we can do more experiments on the desktops we will be virtualizing. Therefore, the process to create this special account is as follows.
+
+In Active Directory Users and Computers, open the "Users" folder.
