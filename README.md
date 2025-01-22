@@ -54,4 +54,12 @@ A new folder should pop-up, named "Deleted Objects". This indicates that the rec
 ## Creating Users in Active Directory
 To create a new user, open Active Directory Users and Computers. Usually, you would right-click on an empty space, and click new, then user, and go on to create the account with suitable permissions. However, in this case, we want to replicate an administrator account so that we can do more experiments on the desktops we will be virtualizing. Therefore, the process to create this special account is as follows.
 
-In Active Directory Users and Computers, open the "Users" folder.
+In Active Directory Users and Computers, open the "Users" folder. Right click on Administrator, and choose copy. 
+
+<img src="https://i.ibb.co/dcg2X2X/15-right-click-on-admin-and-copy.png">
+
+A screen prompting you to name the new user will pop-up. You can name the user whatever you want for this environment. In my case, I named my user "helpdesk", as it will help me to identify the account much easier. The logon name should be "helpdesk" as well. After that, we can click next. 
+
+<img src="https://i.ibb.co/10GsbC0/16-creating-helpdesk-account.png">
+
+Then, it will prompt you to create a password. Make sure the password is simple to remember in this case, since we will need quick access to the password. Once you've created the password, confirm it and make sure the only box that is checked is the one that says that the password never expires. 
