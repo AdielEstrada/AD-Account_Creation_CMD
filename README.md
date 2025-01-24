@@ -91,4 +91,8 @@ The net use command is used to see what shares (shared drives) you have access t
 > **Note!**
 > In our current setup, we don't have shared drives, so the command prompt will tell us there are no entries in the list.
 
-###
+### net user
+
+This is different from net use. While net use provides information about shared drives, net user provides information about the user. It can tell you when the password was last set, when it will expire, and what groups the user is part of. For example, if we want to know information about a user in our domain, helpdesk, we would type the following: "net user helpdesk /domain". You would always end with /domain. The only thing that changes is the username. 
+
+<img src="https://i.ibb.co/DRHwxch/23-net-user.png">
