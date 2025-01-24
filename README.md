@@ -62,4 +62,33 @@ A screen prompting you to name the new user will pop-up. You can name the user w
 
 <img src="https://i.ibb.co/10GsbC0/16-creating-helpdesk-account.png">
 
-Then, it will prompt you to create a password. Make sure the password is simple to remember in this case, since we will need quick access to the password. Once you've created the password, confirm it and make sure the only box that is checked is the one that says that the password never expires. 
+Then, it will prompt you to create a password. Make sure the password is simple to remember in this case, since we will need quick access to the password. Once you've created the password, confirm it and make sure the only box that is checked is the one that says that the password never expires. You can click Next. 
+
+<img src="https://i.ibb.co/1QJ3KFs/17-making-password-for-helpdesk-account.png">
+
+A screen will confirm the information you entered is correct. You can click Finish. 
+
+## Common CMD Commands
+For this section, open the command prompt through the search bar or the start menu.
+
+### ipconfig
+
+The ipconfig command will give you basic information about your network settings. It will display important information such as the IP (Internet Protocol) address, and the MAC address. These, especially the IP address configuration, are important in ensuring proper communication in your network. That's why it's common to use this command when troubleshooting connection issues on a computer. 
+
+To execute this command, you simply type "ipconfig" and press enter.
+
+<img src="https://i.ibb.co/gZHV9K7/20-ipconfig.png">
+
+### ipconfig /all
+
+This is a more advanced ipconfig command. This will give you a more detailed report on the state of your network connection. Therefore, it will allow troubleshooting different connection issues. Some useful information you will find is your IP address, both IPv4 and IPv6. Not only that, but you will find when you obtained a lease, in case your computer uses DHCP (In case your computer changes IP address every so often). To execute the command, just type "ipconfig /all" and press enter. 
+
+<img src="https://i.ibb.co/j4v4xTm/21-ipconfig-all.png">
+
+### net use
+The net use command is used to see what shares (shared drives) you have access to on your network. With this command, you can also set up a shared drive. To see what shared drives a user has access to, just type "net use" and press enter. 
+
+> **Note!**
+> In our current setup, we don't have shared drives, so the command prompt will tell us there are no entries in the list.
+
+###
